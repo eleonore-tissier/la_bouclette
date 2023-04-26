@@ -20,42 +20,52 @@
 }
 
 .index {
-    background: top / cover no-repeat url(img/header_image.png);
-    height: 28rem;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), 0% 40% / cover no-repeat url(img/home-bg.jpg) fixed;
+    height: 36rem;
 }
 
 .article {
-    background: top / cover no-repeat url(img/article_image.png);
-    height: 28rem;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), top / cover no-repeat url(img/article_image.jpg) fixed;
+    height: 36rem;
 }
 
 .about {
-    background: top / cover no-repeat url(img/about_image.png);
-    height: 28rem;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), 0% 70% / cover no-repeat url(img/pexels-nataliya-vaitkevich-8467970.jpg) fixed;
+    height: 36rem;
 }
 
 .contact {
-    background: top / cover no-repeat url(img/contact_image.png);
-    height: 28rem;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), top / contain no-repeat url(img/contact_image.png) fixed;
+    height: 36rem;
 }
 
 .nav-bar {
     display: flex;
-    padding: 2rem 5rem;
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: 0rem 0rem 1rem #757575;
+    flex-direction: row;
+    padding: 1rem 5rem;
+    /* background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0rem 0rem 1rem #757575; */
     font-weight: 800;
 }
 
 .nav-bar a {
     flex: auto;
-    color: grey;
+    color: white;
+    /* color: grey; */
     font-weight: bold;
+}
+
+.nav-bar a img {
+    flex: auto;
+    vertical-align: middle;
+    height: 60px;
+    margin-right: 0.5rem;
 }
 
 .nav-bar div {
     display: flex;
     gap: 6rem;
+    margin-top: 1rem;
 }
 
 a {
@@ -68,7 +78,7 @@ a {
 }
 
 .subtitle h1 {
-    margin-top: 7rem;
+    margin-top: 10rem;
     font-size: 5rem;
     font-weight: 900;
 }
