@@ -19,8 +19,10 @@
     margin: 0;
 }
 
+/* Images */
+
 .index {
-    background: linear-gradient(to bottom, #00000068, #0000 50%), 0% 40% / cover no-repeat url(img/home-bg.jpg) fixed;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), 0% 40% / cover no-repeat url(img/home_image.jpg) fixed;
     height: 36rem;
 }
 
@@ -30,14 +32,16 @@
 }
 
 .about {
-    background: linear-gradient(to bottom, #00000068, #0000 50%), 0% 70% / cover no-repeat url(img/pexels-nataliya-vaitkevich-8467970.jpg) fixed;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), top / cover no-repeat url(img/about_image.jpg) fixed;
     height: 36rem;
 }
 
 .contact {
-    background: linear-gradient(to bottom, #00000068, #0000 50%), top / contain no-repeat url(img/contact_image.png) fixed;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), 0% 15% / cover no-repeat url(img/contact_image.jpg) fixed;
     height: 36rem;
 }
+
+/* Header */
 
 .nav-bar {
     display: flex;
@@ -83,6 +87,59 @@ a {
     font-weight: 900;
 }
 
+/* Zones de texte */
+
 .container {
-    margin: 2rem;
+    display: flex;
+}
+
+.content {
+    position: relative;
+    width: calc(100% - 375px);
+    padding: 2em 2em 2em 22em;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .05);
+    z-index: 2;
+}
+
+.sidebar {
+    position: relative;
+    width: 375px;
+    padding: 40px;
+    background-color: #F9F9F9;
+    z-index: 1;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F9F9;
+    border: solid 1px #c8c8c8;
+    height: 9rem;
+    z-index: 3;
+    text-align: center;
+}
+
+.link {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img {
+    width: 3rem;
+}
+
+/* About page */
+
+.a-propos {
+    margin: 1rem 0rem;
+}
+
+.a-propos p {
+    margin: 0.5rem 0rem;
 }
