@@ -111,6 +111,29 @@ a {
     z-index: 2;
 }
 
+.article-box {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.article-box img {
+    width: 15rem;
+}
+
+.article-subtitle {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.article-a-propos {
+    margin-top: 1rem;
+}
+
+.article-a-propos p {
+    font-size: 20px;
+}
+
 /* Sidebar */
 
 .sidebar {
