@@ -106,7 +106,7 @@ a {
 .content {
     position: relative;
     width: calc(100% - 375px);
-    padding: 2em 2em 2em 22em;
+    padding: 2em 16em 2em 32em;
     box-shadow: 0 4px 30px rgba(0, 0, 0, .05);
     z-index: 2;
 }
@@ -117,8 +117,8 @@ a {
     margin-bottom: 2rem;
 }
 
-.article-box img {
-    width: 15rem;
+.article-box a h2:hover {
+    color: #757575a5;
 }
 
 .article-subtitle {
@@ -201,9 +201,32 @@ a {
 /* About page */
 
 .a-propos {
-    margin: 1rem 0rem;
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 0rem;
 }
 
-.a-propos p {
-    margin: 0.5rem 0rem;
+.a-propos img {
+    height: 15rem;
+}
+
+.text {
+    margin-top: 2rem;
+}
+
+/* Contact page */
+
+.contact-box {
+    margin-top: 5rem;
+}
+
+.contact-box strong {
+    flex: auto;
+    padding-right: 5rem;
+}
+
+.contact-box strong img {
+    height: 4rem;
+    vertical-align: middle;
+    margin-right: 1rem;
 }
