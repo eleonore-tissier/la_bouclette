@@ -268,3 +268,66 @@ a {
 .footer img {
     width: 3rem;
 }
+
+/* Responsive */
+@media screen and (max-width: 1750px) {
+    .content {
+        padding: 4em 16em 2em 19em;
+    }
+}
+
+@media screen and (max-width: 1530px) {
+    .content {
+        padding: 4em 12em 2em 12em;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    /* Images */
+    .index {
+        background: linear-gradient(to bottom, #00000068 50%, #0000), top / contain no-repeat url(img/home_image.jpg) fixed;
+        height: 13rem;
+    }
+    .article {
+        background: linear-gradient(to bottom, #00000068 50%, #0000), top / contain no-repeat url(img/article_image.jpg) fixed;
+        height: 13rem;
+    }
+    .about {
+        background: linear-gradient(to bottom, #00000068 50%, #0000), top / contain no-repeat url(img/about_image.jpg) fixed;
+        height: 13rem;
+    }
+    .contact {
+        background: linear-gradient(to bottom, #00000068 50%, #0000), top / contain no-repeat url(img/contact_image.jpg) fixed;
+        height: 13rem;
+    }
+
+    /* Header  */
+    .nav-bar {
+        flex-direction: column;
+        padding: 1rem 1rem;
+    }
+
+    .nav-bar div {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+
+    .nav-bar div a {
+        margin-left: 2rem;
+    }
+
+    /* Text zone */
+    .container {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 250px;
+        padding: 2rem 0rem 2rem 4rem;
+        box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+    }
+
+    /* Sidebar */
+    .sidebar {
+    }
+}
