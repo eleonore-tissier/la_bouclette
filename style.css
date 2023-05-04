@@ -10,7 +10,7 @@
     font-weight: 700;
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;800;900&display=swap');
 
 *{
     box-sizing: border-box;
@@ -76,6 +76,10 @@ h2 {
     display: flex;
     gap: 6rem;
     margin-top: 1rem;
+}
+
+.nav-bar div a:hover {
+    text-decoration: underline;
 }
 
 a {
@@ -151,7 +155,7 @@ a {
 }
 
 .sidebar ul h3 {
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 1rem;
 }
 
@@ -162,7 +166,11 @@ a {
 
 .sidebar ul li {
     padding-bottom: 1rem;
-    font-weight: 200;
+    font-weight: 400;
+}
+
+.sidebar ul li:hover {
+    font-weight: 500;
 }
 
 .sidebar li:first-of-type {
@@ -263,6 +271,19 @@ a {
     gap: 2rem;
     align-items: center;
     justify-content: center;
+}
+
+.github,
+.linkedin {
+    opacity: 0.5;
+}
+
+.github:hover {
+    opacity: 1;
+}
+
+.linkedin:hover {
+    opacity: 1;
 }
 
 .footer img {
