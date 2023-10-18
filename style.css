@@ -37,6 +37,11 @@ h2 {
     height: 36rem;
 }
 
+.article3 {
+    background: linear-gradient(to bottom, #00000068, #0000 50%), top / cover no-repeat url(img/pexels-cottonbro-studio-4153187.jpg) fixed;
+    height: 36rem;
+}
+
 .about {
     background: linear-gradient(to bottom, #00000068, #0000 50%), top / cover no-repeat url(img/about_image.jpg) fixed;
     height: 36rem;
