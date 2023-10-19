@@ -20,6 +20,12 @@
     margin: 0;
 }
 
+h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
 h2 {
     font-size: 24px;
     font-weight: 900;
@@ -37,8 +43,18 @@ h2 {
     height: 36rem;
 }
 
-.article3 {
+.cheveux {
+    background: linear-gradient(to bottom, #00000068, #0000 50%), top / cover no-repeat url(img/pexels-collis-14999219.jpg) fixed;
+    height: 36rem;
+}
+
+.volume {
     background: linear-gradient(to bottom, #00000068, #0000 50%), top / cover no-repeat url(img/pexels-cottonbro-studio-4153187.jpg) fixed;
+    height: 36rem;
+}
+
+.links {
+    background: linear-gradient(to bottom, #00000068, #0000 50%), bottom / cover no-repeat url(img/pexels-tirachard-kumtanom-733853.jpg) fixed;
     height: 36rem;
 }
 
