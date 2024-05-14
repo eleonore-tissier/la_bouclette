@@ -31,75 +31,84 @@ h2 {
     font-weight: 900;
 }
 
+b {
+    font-size: 20px;
+}
+
 /* Images */
 
 .index {
-    background: linear-gradient(to bottom, #00000068, #0000 50%), 0% 40% / cover no-repeat url(img/home_image.jpg) fixed;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), 0% 40% / cover no-repeat url(../img/home_image.jpg) fixed;
     height: 36rem;
 }
 
 .article {
-    background: linear-gradient(to bottom, #00000068, #0000 50%), top / cover no-repeat url(img/article_image.jpg) fixed;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), top / cover no-repeat url(../img/article_image.jpg) fixed;
     height: 36rem;
 }
 
 .cheveux {
-    background: top / cover no-repeat url(img/pexels-collis-14999219.jpg) fixed;
+    background: top / cover no-repeat url(../img/pexels-collis-14999219.jpg) fixed;
     height: 36rem;
 }
 
 .volume {
-    background: linear-gradient(to bottom, #00000068, #0000 50%), top / cover no-repeat url(img/pexels-cottonbro-studio-4153187.jpg) fixed;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), top / cover no-repeat url(../img/pexels-cottonbro-studio-4153187.jpg) fixed;
     height: 36rem;
 }
 
 .products {
-    background: linear-gradient(to bottom, #00000068, #0000), 0% 90% / cover no-repeat url(img/pexels-polina-tankilevitch-3735657.jpg) fixed;
+    background: linear-gradient(to bottom, #00000068, #0000), 0% 90% / cover no-repeat url(../img/pexels-polina-tankilevitch-3735657.jpg) fixed;
     height: 36rem;
 }
 
 .tools {
-    background: linear-gradient(to bottom, #00000068 50%, #0000), bottom / cover no-repeat url(img/about-bg.jpg) fixed;
+    background: linear-gradient(to bottom, #00000068 50%, #0000), bottom / cover no-repeat url(../img/about-bg.jpg) fixed;
     height: 36rem;
 }
 
 .winter {
-    background: linear-gradient(to bottom, #00000068, #0000 50%), 0% 60% / cover no-repeat url(img/pexels-miriam-alonso-7585607.jpg) fixed;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), 0% 60% / cover no-repeat url(../img/pexels-miriam-alonso-7585607.jpg) fixed;
     height: 36rem;
 }
 
 .beginners {
-    background: linear-gradient(to bottom, #00000068, #0000 50%), 0% 30% / cover no-repeat url(img/pexels-daniel-duarte-16135572\ \(copie\).jpg) fixed;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), 0% 30% / cover no-repeat url(../img/beginners.jpg) fixed;
     height: 36rem;
 }
 
 .intermediates {
-    background: linear-gradient(to bottom, #00000068, #0000 50%), top / cover no-repeat url(img/pexels-kate-photo-1028927.jpg) fixed;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), top / cover no-repeat url(../img/pexels-kate-photo-1028927.jpg) fixed;
     height: 36rem;
 }
 
 .advanced {
-    background: linear-gradient(to bottom, #00000068, #0000 50%), bottom / cover no-repeat url(img/pexels-godisable-jacob-923210\ \(autre\ copie\).jpg) fixed;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), bottom / cover no-repeat url(../img/advanced.jpg) fixed;
     height: 36rem;
 }
 
 .oils {
-    background: linear-gradient(to bottom, #00000068 40%, #0000), 0% 50% / cover no-repeat url(img/pexels-chill-jane-3892675.jpg) fixed;
+    background: linear-gradient(to bottom, #00000068 40%, #0000), 0% 50% / cover no-repeat url(../img/pexels-chill-jane-3892675.jpg) fixed;
+    height: 36rem;
+}
+
+.tips {
+    background: linear-gradient(to bottom, #00000068 40%, #0000), 0% 60% / cover no-repeat url(../img/tips.jpg) fixed;
     height: 36rem;
 }
 
 .links {
-    background: linear-gradient(to bottom, #00000068, #0000 50%), bottom / cover no-repeat url(img/pexels-tirachard-kumtanom-733853.jpg) fixed;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), bottom / cover no-repeat url(../img/pexels-tirachard-kumtanom-733853.jpg) fixed;
     height: 36rem;
 }
 
 .about {
-    background: linear-gradient(to bottom, #00000068, #0000 50%), top / cover no-repeat url(img/about_image.jpg) fixed;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), top / cover no-repeat url(../img/about_image.jpg) fixed;
     height: 36rem;
 }
 
 .contact {
-    background: linear-gradient(to bottom, #00000068, #0000 50%), 0% 15% / cover no-repeat url(img/contact_image.jpg) fixed;
+    background: linear-gradient(to bottom, #00000068, #0000 50%), 0% 15% / cover no-repeat url(../img/contact_image.jpg) fixed;
     height: 36rem;
 }
 
@@ -157,6 +166,10 @@ a {
     font-weight: 900;
 }
 
+.subtitle p {
+    font-size: 20px;
+}
+
 /* Zones de texte */
 
 .container {
@@ -199,6 +212,7 @@ div.content div.article-box a.article-texte:hover * {
 .sidebar {
     position: relative;
     width: 375px;
+    height: 100%;
     padding: 40px;
     background-color: #F9F9F9;
     z-index: 1;
@@ -307,6 +321,26 @@ div.content div.article-box a.article-texte:hover * {
     color: #b07a4f;
 }
 
+div.comparison-box {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+div.comparison-box p.title {
+    font-weight: bold;
+}
+
+div.comparison-box li {
+    margin-top: 0;
+}
+
+div.comparison-box ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
 /* Footer */
 
@@ -376,19 +410,19 @@ div.content div.article-box a.article-texte:hover * {
 @media screen and (max-width: 740px) {
     /* Images */
     .index {
-        background: linear-gradient(to bottom, #00000068 50%, #0000), top / cover no-repeat url(img/home_image.jpg) fixed;
+        background: linear-gradient(to bottom, #00000068 50%, #0000), top / cover no-repeat url(../img/home_image.jpg) fixed;
         height: 20rem;
     }
     .article {
-        background: linear-gradient(to bottom, #00000068 50%, #0000), top / cover no-repeat url(img/article_image.jpg) fixed;
+        background: linear-gradient(to bottom, #00000068 50%, #0000), top / cover no-repeat url(../img/article_image.jpg) fixed;
         height: 20rem;
     }
     .about {
-        background: linear-gradient(to bottom, #00000068 50%, #0000), top / cover no-repeat url(img/about_image.jpg) fixed;
+        background: linear-gradient(to bottom, #00000068 50%, #0000), top / cover no-repeat url(../img/about_image.jpg) fixed;
         height: 20rem;
     }
     .contact {
-        background: linear-gradient(to bottom, #00000068 50%, #0000), top / cover no-repeat url(img/contact_image.jpg) fixed;
+        background: linear-gradient(to bottom, #00000068 50%, #0000), top / cover no-repeat url(../img/contact_image.jpg) fixed;
         height: 20rem;
     }
 
