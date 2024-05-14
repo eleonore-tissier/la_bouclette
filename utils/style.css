@@ -156,7 +156,7 @@ a {
 }
 
 .subtitle h1,
-.subtitle p {
+.subtitle span {
     color: white;
 }
 
@@ -166,8 +166,12 @@ a {
     font-weight: 900;
 }
 
-.subtitle p {
+.subtitle span {
     font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.24);
+    box-shadow: 0 0 11rem rgba(0, 0, 0);
+    padding: 1rem;
+    border-radius: 2rem;
 }
 
 /* Zones de texte */
@@ -261,10 +265,11 @@ div.content div.article-box a.article-texte:hover * {
 
 .a-propos img {
     height: 15rem;
+    align-self: center;
 }
 
-.text {
-    margin-top: 2rem;
+.a-propos .text {
+    align-self: center;
 }
 
 /* Contact page */
